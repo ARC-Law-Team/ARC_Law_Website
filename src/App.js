@@ -9,6 +9,7 @@ import Timeline from './components/Timeline/Timeline';
 import Team from './components/Team/Team';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 
 function App() {
   const portfolioLinks = [
@@ -46,6 +47,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
+      <About/>
       <Services/>
       <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
       <Timeline/>

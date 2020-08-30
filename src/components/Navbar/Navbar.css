@@ -1,0 +1,12 @@
+.scrolled img{
+    width: 50px !important;
+}
+
+.scrolled{
+    background-color: #F7F7F7 !important;
+    margin-top: 0px !important;
+}
+
+.lang-tr{
+    margin-left: -20px;
+}

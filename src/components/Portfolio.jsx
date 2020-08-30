@@ -13,7 +13,7 @@ export default ({ portfolioLinks }) => {
           <div className="row">
             {
                 portfolioLinks && portfolioLinks.map(({ title, caption }, index) => 
-                    <div className="col-md-4 col-sm-6 portfolio-item">
+                    <div key={index} className="col-md-4 col-sm-6 portfolio-item">
                         <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                             <div className="portfolio-hover">
                                 <div className="portfolio-hover-content">
