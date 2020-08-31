@@ -25,6 +25,10 @@ a:hover {
 	color: #fed136!important
 }
 
+.second_row{
+	padding-top: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -148,6 +152,10 @@ img::-moz-selection {
 }
 
 #mainNav  a{
+	float: right;
+}
+
+#mainNav  button{
 	float: right;
 }
 
@@ -345,6 +353,12 @@ header.masthead .intro-text .intro-heading {
 @media (min-width:767px) {
 	#portfolio .portfolio-item {
 		margin: 0 0 30px
+	}
+}
+
+@media (max-width:1200px) {
+	#services .col-md-4 {
+		padding-top: 20px;
 	}
 }
 
@@ -605,6 +619,7 @@ header.masthead .intro-text .intro-heading {
 	.timeline>li.timeline-inverted>.timeline-panel {
 		padding: 0 100px 20px 20px
 	}
+
 }
 
 .team-member {
@@ -628,11 +643,16 @@ header.masthead .intro-text .intro-heading {
 	margin-top: 0
 }
 
+.mapboxgl-ctrl-attrib-inner a{
+	display: none;
+}
+
 section#contact {
 	background-color: #212529;
-	background-image: url(../img/map-image.png);
+	background-image: url(../img/resim2.jpg);
 	background-repeat: no-repeat;
-	background-position: center
+	background-position: center;
+	background-size: cover;
 }
 
 section#contact .section-heading {

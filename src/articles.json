@@ -1,0 +1,22 @@
+{
+    "articles":{
+      "article_1":{
+        "title": "asd",
+        "summary": "asd",
+        "link_tr": "asd",
+        "link_en": "asd"
+      },
+      "article_2":{
+        "title": "",
+        "summary": "",
+        "link_tr": "",
+        "link_en": ""
+      },
+      "article_3":{
+        "title": "",
+        "summary": "",
+        "link_tr": "",
+        "link_en": ""
+      }
+    }
+  }

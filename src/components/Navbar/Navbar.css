@@ -10,3 +10,8 @@
 .lang-tr{
     margin-left: -20px;
 }
+
+.lang{
+    background-color: transparent;
+    border: 0px;
+}

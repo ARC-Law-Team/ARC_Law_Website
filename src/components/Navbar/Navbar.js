@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import Logo from '../../assets/img/logos/arc-ing.svg'
 import './Navbar.css';
+import {withTranslation} from "react-i18next";
+import i18n from '../../i18n';
 
-export default class Navbar extends Component {
+class Navbar extends Component {
     constructor(props) {
         super(props);
     
@@ -10,6 +12,8 @@ export default class Navbar extends Component {
         this.state = {
           status: "top"
         };
+
+        this.onSelectLang = this.onSelectLang.bind(this);
     }
     
     componentDidMount() {
@@ -27,11 +31,26 @@ export default class Navbar extends Component {
         });
     }
 
+    onSelectLang(countryCode) {
+        console.log("called");
+        switch (countryCode) {
+            case "TR":
+                i18n.changeLanguage('tr');
+                break;
+            case "US":
+                i18n.changeLanguage('en');
+                break;
+            default:
+                i18n.changeLanguage('en');
+        }
+    }
+
     componentDidUpdate() {
         document.removeEventListener("scroll", this.listener);
     }
 
     render() {
+        const { t } = this.props;
         let classes = "navbar navbar-expand-lg navbar-dark fixed-top";
         let scroll = "";
         if(this.state.status !== "top"){
@@ -43,7 +62,7 @@ export default class Navbar extends Component {
             <div>
                 <nav className={classes} id="mainNav">
                     <div className="container">
-                        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+                        <a className="navbar-brand js-scroll-trigger" href="#top">
                             <img className="mx-auto" width="150px" src={Logo} alt=""/>
                         </a>
                         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,25 +72,25 @@ export default class Navbar extends Component {
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className={"navbar-nav text-uppercase ml-auto " + scroll}>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger sep" href="#services">Services</a>
+                                    <a className="nav-link js-scroll-trigger sep" href="#about">{t("about")}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger sep" href="#portfolio">Portfolio</a>
+                                    <a className="nav-link js-scroll-trigger sep" href="#industries">{t("industries")}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger sep" href="#about">About</a>
+                                    <a className="nav-link js-scroll-trigger sep" href="#team">{t("team")}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger sep" href="#team">Team</a>
+                                    <a className="nav-link js-scroll-trigger sep" href="#artic">{t("artics_letter")}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger sep" href="#contact">Contact</a>
+                                    <a className="nav-link js-scroll-trigger sep" href="#contact">{t("contact")}</a>
                                 </li>
                                 <li className="nav-item">
-                                        <a className="nav-link js-scroll-trigger lang sep" href="#contact">EN</a>
+                                    <button className="nav-link js-scroll-trigger lang sep" onClick={() => i18n.changeLanguage('en')}>EN</button>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger lang lang-tr" href="#contact">TR</a>
+                                    <button className="nav-link js-scroll-trigger lang lang-tr" onClick={() => i18n.changeLanguage('tr')}>TR</button>
                                 </li>
                             </ul>
                         </div>
@@ -81,3 +100,5 @@ export default class Navbar extends Component {
         )
     }
 }
+
+export default withTranslation()(Navbar);

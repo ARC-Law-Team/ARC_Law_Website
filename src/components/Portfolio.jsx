@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({ portfolioLinks }) => {
     return (
-        <section className="bg-light page-section" id="portfolio">
+        <section className="page-section" id="portfolio">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
@@ -20,7 +20,11 @@ export default ({ portfolioLinks }) => {
                                     <i className="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img className="img-fluid" src={ `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}` } alt="portfolio_img" />
+                            <div>
+                              <p>
+                                
+                              </p>
+                            </div>
                         </a>
                         <div className="portfolio-caption">
                             <h4>{ title }</h4>

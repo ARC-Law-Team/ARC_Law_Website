@@ -23,6 +23,14 @@ Author URI: http://xpeedstudio.com
 ==========================================*/
 
 
+.value_title h2{
+    font-size: x-large !important;
+}
+
+.value_title{
+    padding-top: 20px;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -1909,6 +1917,9 @@ Author URI: http://www.xpeedstudio.com
 
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
+    .value_title{
+        text-align: center;
+    }
     h2{
         font-size:2rem;
     }
