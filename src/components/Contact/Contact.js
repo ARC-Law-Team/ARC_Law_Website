@@ -5,7 +5,8 @@ export default class Contact extends Component {
         var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
  
         mapboxgl.accessToken = 'pk.eyJ1IjoibnVyaGFrYWx0aW4iLCJhIjoiY2tlajJwaTNiMThldTJ1bHBqdWM4OGl3eCJ9.IaqEb1kZes6f890cXu1a0A';
-        var map = new mapboxgl.Map({
+         // eslint-disable-next-line
+        let map = new mapboxgl.Map({
         container: 'googlemap',
         style: 'mapbox://styles/mapbox/streets-v11'
         });

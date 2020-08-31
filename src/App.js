@@ -5,7 +5,6 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import Services from './components/Services/Services';
-import Timeline from './components/Timeline/Timeline';
 import Team from './components/Team/Team';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
