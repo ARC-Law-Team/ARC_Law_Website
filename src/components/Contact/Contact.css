@@ -10,3 +10,24 @@
   .contact-info{
       color: black;
   }
+
+  .contact-info-container{
+      background-color: #212529;
+      height: 35vh;
+      margin-top: 10px;
+  }
+
+  .contact-info-container table{
+      color: white;
+      position: relative;
+      margin-top: 50px;
+      text-align: left;
+  }
+
+  .contact-info-container table th{
+    display: none;
+}
+
+.contact-info-container table a {
+    color: white;
+}

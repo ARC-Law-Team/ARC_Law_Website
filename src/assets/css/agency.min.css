@@ -29,6 +29,18 @@ a:hover {
 	padding-top: 20px;
 }
 
+.developer{
+	font-size: smaller;
+}
+
+.developer a{
+	color: #212529;
+}
+
+.developer a::hover{
+	color: #fed136;
+}
+
 h1,
 h2,
 h3,
@@ -65,12 +77,12 @@ h6 {
 }
 
 ::-moz-selection {
-	background: #fed136;
+	background: black;
 	text-shadow: none
 }
 
 ::selection {
-	background: #fed136;
+	background: black;
 	text-shadow: none
 }
 
@@ -360,6 +372,10 @@ header.masthead .intro-text .intro-heading {
 @media (max-width:1200px) {
 	#services .col-md-4 {
 		padding-top: 20px;
+	}
+
+	.developer{
+		margin-top: 20px;
 	}
 }
 
@@ -748,5 +764,6 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-	background-color: #fed136
+	background-color: white;
+	color:#212529 ;
 }

@@ -6,7 +6,7 @@ class Services extends Component {
     render() {
         const {t}= this.props;
         return (
-            <div>
+            <div id="industries">
                  <section className="page-section bg-light" id="services">
                     <div className="container">
                     <div className="row">

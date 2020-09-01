@@ -61,21 +61,32 @@ class Contact extends Component {
                                     <div className="col-md-4">
                                         <div id="map" style={{height:"40vh"}}></div>
                                     </div>
-                                    <div className="col-md-2">
-                                    </div>
-                                    <div className="col-md-6 contact-info">
-                                        <ul>
-                                            <li>
-                                                <div className="row">
-                                                    <div className="col-md-1">
-                                                        <i className="fas fa-map-marker-alt fa-2x"></i>
-                                                    </div>
-                                                    <div className="col-md-8">
-                                                        <p>Maslak Mah. Maslak Meydan Sok. Beybi Giz Plaza, A Blok, No: 1, Kat: 26-27, Sarıyer/İstanbul</p>
-                                                    </div> 
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    <div className="col-md-2"></div>
+                                    <div className="col-md-4 justify-content-center contact-info-container">
+                                    <table className="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                            <th scope="row"></th>
+                                            <td><i className="fas fa-map-marker-alt fa-inverse"></i></td>
+                                            <td><a target="_blank" rel="noopener noreferrer" href="http://maps.google.com/?q=1200 Maslak Mah. Maslak Meydan Sok. Beybi Giz Plaza, A Blok, No: 1, Kat: 26-27,Sarıyer/İstanbul">Maslak Mah. Maslak Meydan Sok. Beybi Giz Plaza, A Blok, No: 1, Kat: 26-27,Sarıyer/İstanbul</a></td>
+                                            </tr>
+                                            <tr>
+                                            <th scope="row"></th>
+                                            <td><i className="fas fa-phone  fa-inverse"></i></td>
+                                            <td><a href="tel:+902123352649">+90 212 335 26 49</a></td>
+                                            </tr>
+                                            <tr>
+                                            <th scope="row"></th>
+                                            <td><i className="fas fa-fax fa-inverse"></i></td>
+                                            <td>+90 212 335 25 00</td>
+                                            </tr>
+                                            <tr>
+                                            <th scope="row"></th>
+                                            <td><i className="fas fa-envelope-open-text fa-inverse"></i></td>
+                                            <td><a target="_blank" rel="noopener noreferrer" href="mailto:info@arcavukatlik.com">info@arcavukatlik.com</a></td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
