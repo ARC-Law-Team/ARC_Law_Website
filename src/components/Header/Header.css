@@ -59,17 +59,17 @@
 
 @keyframes MoveUpDown {
     0%, 100% {
-      bottom: 10px;
+      top: 90vh;
       opacity: 1;
     }
     50% {
-      bottom: 25px;
+      top: 92vh;
       opacity: 0;
     }
   }
 
 .intro-text a img{
     position: absolute;
-    bottom: 15px;
+    top: 90vh;
     animation: MoveUpDown 1s linear infinite;
 }

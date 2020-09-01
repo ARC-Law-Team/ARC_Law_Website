@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         const {t} = this.props;
         return (
-            <section id="feature" className="ab_feature roomy-100">
+            <section id="about" className="ab_feature roomy-100">
                 <div className="container">
                     <div className="row">
                         <div className="main_ab_feature">

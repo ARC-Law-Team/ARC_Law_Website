@@ -1,0 +1,12 @@
+.marker {
+    position: relative;
+    bottom: 43vh;
+    background-image: url('../../assets/img/logos/arc-ing.svg');
+    background-size: cover;
+    width: 42px;
+    height: 34px;
+  }
+
+  .contact-info{
+      color: black;
+  }

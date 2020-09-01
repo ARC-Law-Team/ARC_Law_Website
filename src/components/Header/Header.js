@@ -14,7 +14,7 @@ class Header extends Component {
                     <div className="intro-text">
                         <div className="intro-heading">{t("arc_law")}</div>
                         <div className="intro-lead-in">{t("motto")}</div>
-                        <a className="js-scroll-trigger" href="#services"><img className="blink-image" height="40px" src={Arrow} alt="Arrow icon"></img></a>
+                        <a className="js-scroll-trigger" href="#about"><img className="blink-image" height="40px" src={Arrow} alt="Arrow icon"></img></a>
                     </div>
                     </div>
                 </header>
