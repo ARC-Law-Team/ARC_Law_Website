@@ -37,7 +37,7 @@ class Footer extends Component {
                         </ul>
                         </div>
                         <div className="col-md-4 developer">
-                            {t("developer")} <a href="nurhakaltin.com">www.nurhakaltin.com</a>
+                            {t("developer")} <a target="_blank" rel="noopener noreferrer" href="https://www.nurhakaltin.com">www.nurhakaltin.com</a>
                         </div>
                     </div>
                     </div>

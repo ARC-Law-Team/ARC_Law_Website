@@ -58,7 +58,8 @@ h6 {
 .page-section h2.section-heading {
 	font-size: xx-large;
 	margin-top: 0;
-	margin-bottom: 15px
+	margin-bottom: 15px;
+	color: #273066;
 }
 
 .page-section h3.section-subheading {
@@ -262,8 +263,13 @@ header.masthead .intro-text .intro-heading {
 	font-size: xx-large;
 	font-weight: 700;
 	line-height: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+header.masthead .intro-heading{
+	margin-top: -70px; 
+	color: #273066;
 }
 
 @media (min-width:768px) {

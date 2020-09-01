@@ -20,7 +20,6 @@ function App() {
         <Header/>
         <About/>
         <Services/>
-        <Portfolio></Portfolio>
         <Team/>
         <Contact/>
         <Footer/>

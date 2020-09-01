@@ -758,12 +758,13 @@ Author URI: http://xpeedstudio.com
    .head_title{
        /*padding-bottom: 7.143rem;*/
        overflow: hidden;
+       color: #273066;
    }
    .head_title h2{
        font-family: 'Open Sans', sans-serif;
        font-weight: 600;
        font-size:2.286rem;
-       color:#1a1a1a;
+       color:#273066;
    }
    .head_title p{
        font-family: 'Raleway', sans-serif;

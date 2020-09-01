@@ -2,12 +2,12 @@
     "en": {
       "homepage": "Homepage",
       "about": "About Us",
-      "industries": "Industries",
+      "industries": "Practices Areas",
       "team": "Team",
       "artics_letter":"Articletter",
       "contact": "Contact",
       "motto": "We offer you efficient, innovative and result-oriented solutions as being your Solution-Partner.",
-      "arc_law": "ARC Law",
+      "arc_law": "ARC Law Firm",
       "about_1": "ARC Law Firm is a prestigious law firm established in Istanbul which offers full service legal solutions comprising all major fields of law to our global and international clients. Combining a broad experience gained at multi-national and local firms with our innovative approach, our Firm offers full service legal solutions to our domestic and global clients. We take pride in our approach to work that focuses on understanding clients’ business and anticipating their legal needs (present and future) and provide efficient and pragmatic solutions.",
       "about_2": "ARC Law Firm differs from other legal approaches while we do not only consider our clients’ legal needs but we also take a role in their commercial benefits and help them take businessmen decisions by supporting them cost efficient, agile and pragmatic services. The recognition of ARC Law Firm at the international market and conducting effective services in different countries relies upon the partnerships with globally recognized law firms located in European countries such as Germany, France, Italy in Europe and as well as U.S. (Chicago, New York and California States) and China (Beijing, Shanghai and Shenzhen). In the meantime, ARC Law Firm is also registered to International Bar Association.",
       "about_3": "Our main focus areas include litigation and dispute resolution, information & technology, corporate law, mergers & acquisitions, banking & finance, project finance and infrastructure, intellectual property, real estate, labor and employment, immigration law, energy, competition and media & telecommunications.",
@@ -34,6 +34,11 @@
       "industries_6": "Individual Client Services",
       "industries_6_content":"While our law firm offers full-legal service boasting both corporate and individual clients, we are active in legal issues such as compensation law, divorce (both contested and uncontested divorce), criminal law (representation of the clients at investigation and trial phases) and consultancy services for commercial matters as it is required.",
       "contact_us": "contact us",
-      "developer": "This site was built by Nurhak Altın."
+      "developer": "This site was built by Nurhak Altın.",
+      "search_lawyer": "Search Lawyer",
+      "team_text": "Search your lawyer by name on the below.",
+      "cemal_heading": "Cemal Araalan, Managing Partner (LL.M.)",
+      "cemal_1": "Cemal Araalan who is the Managing Partner of ARC Law Firm. He is an experienced corporate & disputes lawyer who holds a solid practice on IT Law with strong academic background. In addition to his professional experience at different law firms and multinational companies, he holds two LL.M. degrees both in Turkey (Istanbul Bilgi University Information & Technology Law) and U.S. (Illinois Institute of Technology – American Business Law).",
+      "cemal_2": "Taking his professional experience into consideration, he has also more than 15 years of legal expertise representing Turkish and multinational corporations in high-profile dispute resolution matters (both arbitration and local litigation). He counsels clients on a broad range of issues including complex IT&IP Law disputes, personal data protection, competition law issues, Fin-Tech projects, contractual claims, shareholder and partnership issues, joint ventures, distributorship & agency, professional negligence and employment matters, tax disputes, international trade and business crimes. His daily corporate advice boasts different market leading corporate clients in industries such as gaming, electronics, telecommunication, stationery, fertilizers, pharmaceuticals, medical devices, media and advertising, aviation, insurance, reinsurance, construction, energy, confectionery. His main focus areas include white-collar crimes, construction disputes, conflicts arising from the liability of board members, high-profile IT&IP disputes, employment issues, energy disputes concerning both commercial and administrative law perspectives, competition investigations, media & telecommunications law. Particularly, he provides services to his clients in respect of GDPR, personal data protection regulations in Turkey and privacy matters, internet related disputes, e-government based programs, cybercrimes, internet law, legal framework of the clients’ CRM policies and loyalty programs. He also counsels as a mediator during the settlement negotiations with the counter-parties prior to Court proceedings."
     }
   }
