@@ -1,68 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### ARC AVUKATLIK WEB Sitesi [![Netlify Status](https://api.netlify.com/api/v1/badges/6cd86125-115c-49fe-b18f-6d84ba0ed249/deploy-status)](https://app.netlify.com/sites/arcavukatlik/deploys)
 
-## Available Scripts
+ARC Avukatlık Bürosu, İstanbul’da kurulmuş bir hukuk bürosu olarak uluslararası ve Türk şirketlerde edindiğimiz geçmiş hukuki birikimin yenilikçi yaklaşım ile birleşimi sonucu tüm yerli ve global müvekkillere hukukun tüm ana dallarında hizmet vermektedir. Müvekkillerimizin sektörel gereksinimlerini dikkate alarak bu bağlamda (halihazırdaki ve gelecekteki) hukuki ihtiyaçlarına odaklanarak etkin ve pragmatik çözümler üretmekten gurur duyuyoruz.
 
-In the project directory, you can run:
+ARC Avukatlık Bürosu olarak, farkımız müvekkillerimizin salt hukuki gereksinimlerini düşünmeyip aynı zamanda bir iş adamı olarak ticari gereksinimlerini de dikkate alarak her zaman en az masrafla en hızlı ve etkin hukuki hizmeti almalarını sağlamaktadır. ARC Avukatlık Bürosu’nun, uluslararası arenada tanınması ve etkin hizmet yürütmesi ise, özellikle Almanya, Fransa, İtalya gibi Avrupa ülkeleri ile ABD (Şikago, New York ve Kaliforniya Eyaletleri) ve Çin’de (Pekin, Şangay ve Şenzen) farklı hukuk büroları kurduğu ortaklıklar sayesinde mümkün olmuştur. Aynı zamanda, ARC Avukatlık Bürosu, Uluslararası Barolar Birliği’ne kayıtlıdır. 
 
-### `npm start`
+Ana uzmanlık alanlarımız dava ve uyuşmazlık çözümü, şirketler hukuku ve kurumsal danışmanlık, bilişim ve teknoloji hukuku, banka ve finans, proje finansmanı, fikri mülkiyet, gayrimenkul, iş hukuku, yabancılar hukuku, enerji hukuku, rekabet hukuku alanlarını kapsamaktadır. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Türk ve uluslararası menşeli müvekkillerimizi sektörel açıdan başta bilişim ve teknoloji sektörü dahil olmak üzere özellikle inşaat, gayrimenkul, enerji, banka ve finans, otomotiv, perakende, hızlı tüketim ürünleri, oyun, telekomünikasyon, medya, özel sermaye fonu, turizm ve konaklama sektörlerinde temsil etmekte ve onlara danışmanlık hizmeti vermekteyiz.   
