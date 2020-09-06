@@ -13,7 +13,6 @@ class Navbar extends Component {
           status: "top"
         };
 
-        this.onSelectLang = this.onSelectLang.bind(this);
     }
     
     componentDidMount() {
@@ -36,12 +35,15 @@ class Navbar extends Component {
         switch (countryCode) {
             case "TR":
                 i18n.changeLanguage('tr');
+                window.location.reload(false);
                 break;
-            case "US":
+            case "EN":
                 i18n.changeLanguage('en');
+                window.location.reload(false);
                 break;
             default:
                 i18n.changeLanguage('en');
+                window.location.reload(false);
         }
     }
 
@@ -62,7 +64,7 @@ class Navbar extends Component {
             <div>
                 <nav className={classes} id="mainNav">
                     <div className="container">
-                        <a className="navbar-brand js-scroll-trigger" href="#top">
+                        <a className="navbar-brand js-scroll-trigger" href=".">
                             <img className="mx-auto" width="150px" src={Logo} alt=""/>
                         </a>
                         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,16 +83,16 @@ class Navbar extends Component {
                                     <a className="nav-link js-scroll-trigger sep" href="#team">{t("team")}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link js-scroll-trigger sep" href="#artic">{t("artics_letter")}</a>
+                                    <a className="nav-link js-scroll-trigger sep" href="#articles">{t("artics_letter")}</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link js-scroll-trigger sep" href="#contact">{t("contact")}</a>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="nav-link js-scroll-trigger lang sep" onClick={() => i18n.changeLanguage('en')}>EN</button>
+                                    <button className="nav-link js-scroll-trigger lang sep" onClick={() => this.onSelectLang('EN')}>EN</button>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="nav-link js-scroll-trigger lang lang-tr" onClick={() => i18n.changeLanguage('tr')}>TR</button>
+                                    <button className="nav-link js-scroll-trigger lang lang-tr" onClick={() => this.onSelectLang('TR')}>TR</button>
                                 </li>
                             </ul>
                         </div>

@@ -16,3 +16,10 @@
  .modal_heading{
      justify-content: center;
  }
+
+ .profile{
+     justify-content: center;
+     text-align: center;
+     margin-top: 15px;
+     padding-bottom: 15px;
+ }

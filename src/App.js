@@ -1,6 +1,6 @@
 import React from 'react';
 // import logo from './logo.svg';
-import Portfolio from './components/Portfolio'
+import ArticlesSection from './components/ArticlesSection/ArticlesSection'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
+import Articles from './articles.json';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Header/>
         <About/>
         <Services/>
+        <ArticlesSection cards={Articles}/>
         <Team/>
         <Contact/>
         <Footer/>

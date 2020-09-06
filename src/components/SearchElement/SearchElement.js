@@ -73,30 +73,44 @@ export const SearchElement = () => {
                                       <p> {i18next.t("cemal_2")} </p>
                         </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="row align-items-center">
+                        <div className="col-md-12 profile">
                         <ul className="list-inline social-buttons">
                             <li className="list-inline-item">
-                            <a href="#something">
+                            <a href="https://www.nurhakaltin.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
                                 <i className="fab fa-twitter"></i>
                             </a>
                             </li>
                             <li className="list-inline-item">
-                            <a href="#something">
+                            <a href="#something"
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             >
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                             </li>
                             <li className="list-inline-item">
-                            <a href="#something">
+                            <a href="#something"
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             >
                                 <i className="fab fa-instagram"></i>
                             </a>
                             </li>
                             <li className="list-inline-item">
-                            <a href="#something">
+                            <a href="#something"
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             >
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
                             </li>
                         </ul>
                         </div>
+                    </div>
               </Modal>
             </div>
         </>
