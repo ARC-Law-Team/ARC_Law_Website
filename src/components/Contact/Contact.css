@@ -7,6 +7,10 @@
     height: 34px;
   }
 
+  #map{
+      overflow: hidden;
+  }
+
   .contact-info{
       color: black;
   }
