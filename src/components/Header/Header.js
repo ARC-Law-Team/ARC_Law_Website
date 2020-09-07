@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Arrow from '../../assets/img/down-arrow.png'
+import Arrow from '../../assets/img/arrow.png'
 import './Header.css'
 import { withTranslation } from 'react-i18next'
 
