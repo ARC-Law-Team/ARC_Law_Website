@@ -1,10 +1,10 @@
 .scrolled img{
-    width: 50px !important;
+    width: 80px !important;
 }
 
 .scrolled{
     background-color: #F7F7F7 !important;
-    margin-top: 0px !important;
+    margin-top: -10px !important;
 }
 
 .lang-tr{
