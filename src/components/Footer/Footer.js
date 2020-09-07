@@ -14,25 +14,28 @@ class Footer extends Component {
                         </div>
                         <div className="col-md-4">
                         <ul className="list-inline social-buttons">
-                            <li className="list-inline-item">
-                            <a href="#something"
-                            target="_blank"
+                            <li className="list-inline-item">  
+                            {
+                                // eslint-disable-next-line
+                            }<a href="#"
                             rel="noopener noreferrer"
                             >
                                 <i className="fab fa-twitter"></i>
                             </a>
                             </li>
                             <li className="list-inline-item">
-                            <a href="#something"
-                            target="_blank"
+                            {
+                                // eslint-disable-next-line
+                            }<a href="#"
                             rel="noopener noreferrer"
                             >
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                             </li>
                             <li className="list-inline-item">
-                            <a href="#something"
-                            target="_blank"
+                            {
+                                // eslint-disable-next-line
+                            }<a href="#"
                             rel="noopener noreferrer"
                             >
                                 <i className="fab fa-instagram"></i>

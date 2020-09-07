@@ -13,7 +13,6 @@ export const SearchElement = () => {
     const [name, setName] = useState("");
     const [open, setOpen] = useState(false);
 
-
     function renderFriend(props, option, snapshot, className) {
       const imgStyle = {
           borderRadius: '50%',
@@ -39,26 +38,23 @@ export const SearchElement = () => {
       setOpen(false);
     };
    
-
+    console.log();
     return (
         <>
             <SelectSearch
                 className="select-search"
-                getOptions={(query) => {
-                    return lawyers
-                }}
+                options={lawyers}
                 renderOption={renderFriend}
                 onChange={setNameFunc}
                 value={name}
                 search
-                closeOnSelect
                 placeholder={i18next.t("search_lawyer")}
             />
             <div className="modal_search"> 
               <Modal open={open} onClose={onCloseModal} center classNames={{
-          overlay: 'modal_search',
-          modal: 'modal_content'
-        }}>
+                overlay: 'modal_search',
+                modal: 'modal_content'
+                }}>
                       <div className="row image_modal">
                           <div className="col-md-4 ">
                             <img src={Cemal} className="rounded mx-auto d-block" alt="Cemal Araalan" />
@@ -79,31 +75,7 @@ export const SearchElement = () => {
                         <div className="col-md-12 profile">
                         <ul className="list-inline social-buttons">
                             <li className="list-inline-item">
-                            <a href="https://www.nurhakaltin.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                            </li>
-                            <li className="list-inline-item">
-                            <a href="#something"
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             >
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                            </li>
-                            <li className="list-inline-item">
-                            <a href="#something"
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             >
-                                <i className="fab fa-instagram"></i>
-                            </a>
-                            </li>
-                            <li className="list-inline-item">
-                            <a href="#something"
+                            <a href="https://www.linkedin.com/in/cemal-araalan-06a37211/"
                              target="_blank"
                              rel="noopener noreferrer"
                              >
