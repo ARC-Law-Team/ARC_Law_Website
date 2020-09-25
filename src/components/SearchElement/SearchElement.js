@@ -43,7 +43,9 @@ export const SearchElement = () => {
         <>
             <SelectSearch
                 className="select-search"
-                options={lawyers}
+                getOptions={(query) => {
+                  return lawyers
+                }}
                 renderOption={renderFriend}
                 onChange={setNameFunc}
                 value={name}

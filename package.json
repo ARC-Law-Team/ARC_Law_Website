@@ -16,7 +16,7 @@
     "react-people-search-bar": "^1.0.2",
     "react-responsive-modal": "^5.1.0",
     "react-scripts": "3.1.1",
-    "react-select-search": "^2.0.6",
+    "react-select-search": "^2.1.1",
     "semantic-ui-react": "^1.2.1"
   },
   "scripts": {
