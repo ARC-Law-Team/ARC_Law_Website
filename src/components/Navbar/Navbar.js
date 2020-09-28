@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Logo from '../../assets/img/logos/arc-ing.svg'
+import Logo from '../../assets/img/logos/arc-logo-new.png'
 import './Navbar.css';
 import {withTranslation} from "react-i18next";
 import i18n from '../../i18n';
